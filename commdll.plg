@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: EasyFormatConverter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPE225.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/EasyFormatConverter.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\development\Visual Studio\MyProjects\EasyX\EasyFormatConverter\main.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE225.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE226.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib ddraw.lib dxguid.lib /nologo /subsystem:console /incremental:no /pdb:"Release/EasyFormatConverter.pdb" /machine:I386 /out:"Release/EasyFormatConverter.exe" 
+".\Release\main.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPE226.TMP"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+<h3>
+--------------------Configuration: commdll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPE286.TMP" with contents
+[
+/nologo /MT /w /W0 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "COMMDLL_EXPORTS" /D "BUILD_DLL" /FR"Release/" /Fp"Release/commdll.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\development\Visual Studio\MyProjects\EasyX\Easydraw.cpp"
+"D:\development\Visual Studio\MyProjects\EasyX\EnumModes.cpp"
+"D:\development\Visual Studio\MyProjects\EasyX\GameManager.cpp"
+"D:\development\Visual Studio\MyProjects\EasyX\Image.cpp"
+"D:\development\Visual Studio\MyProjects\EasyX\interface.cpp"
+"D:\development\Visual Studio\MyProjects\EasyX\tileset.cpp"
+"D:\development\Visual Studio\MyProjects\EasyX\Window.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE286.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE287.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ddraw.lib dxguid.lib dsound.lib dinput8.lib winmm.lib ijl15.lib /nologo /dll /incremental:no /pdb:"Release/EasyX.pdb" /machine:I386 /out:"Release/EasyX.dll" /implib:"Release/EasyX.lib" 
+".\Release\Easydraw.obj"
+".\Release\EasyInput.obj"
+".\Release\easysound.obj"
+".\Release\EnumModes.obj"
+".\Release\GameManager.obj"
+".\Release\Image.obj"
+".\Release\interface.obj"
+".\Release\main.obj"
+".\Release\scroller.obj"
+".\Release\tileset.obj"
+".\Release\utilities.obj"
+".\Release\wave.obj"
+".\Release\Window.obj"
+".\Release\dialogs.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPE287.TMP"
+<h3>Output Window</h3>
+Compiling...
+Easydraw.cpp
+EnumModes.cpp
+GameManager.cpp
+Image.cpp
+interface.cpp
+tileset.cpp
+Window.cpp
+Linking...
+   Creating library Release/EasyX.lib and object Release/EasyX.exp
+Creating temporary file "C:\WINDOWS\TEMP\RSPF133.TMP" with contents
+[
+/nologo /o"Release/commdll.bsc" 
+".\Release\Easydraw.sbr"
+".\Release\EasyInput.sbr"
+".\Release\easysound.sbr"
+".\Release\EnumModes.sbr"
+".\Release\GameManager.sbr"
+".\Release\Image.sbr"
+".\Release\interface.sbr"
+".\Release\main.sbr"
+".\Release\scroller.sbr"
+".\Release\tileset.sbr"
+".\Release\utilities.sbr"
+".\Release\wave.sbr"
+".\Release\Window.sbr"]
+Creating command line "bscmake.exe @C:\WINDOWS\TEMP\RSPF133.TMP"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+EasyX.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
